@@ -7,3 +7,12 @@ Course Project for [Applications of Software Architecture for Big Data](https://
 With StreamHub, you can effortlessly explore a vast catalog of popular shows and instantly discover which streaming service hosts which one. Say goodbye endless scrolling and subscription hopping to discover what shows are available to you.
 
 StreamHub works by periodically scans the current popular shows, and find which streaming services they are available on. 
+
+## Tech Stack
+* Web Framework - aspnetcore
+* Database - postgres
+* Code Repository - GitHub
+* Hosting - GCP
+* Testing Suite - xunit
+* Continuous Integration - GitHub Actions
+* Continuous Deployment - Cloud Build
