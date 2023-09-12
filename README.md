@@ -16,3 +16,7 @@ StreamHub works by periodically scans the current popular shows, and find which 
 * Testing Suite - xunit
 * Continuous Integration - GitHub Actions
 * Continuous Deployment - Cloud Build
+
+## Extenral Services
+* get popular movies - https://developer.themoviedb.org/reference/movie-popular-list
+* get streaming providers for a movie - https://developer.themoviedb.org/reference/movie-watch-providers
