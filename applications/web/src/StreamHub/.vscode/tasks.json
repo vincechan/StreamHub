@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/dotnet-cloud-run-hello-world.csproj"
+                "${workspaceFolder}/StreamHub.Web.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/dotnet-cloud-run-hello-world.csproj"
+                "${workspaceFolder}/StreamHub.Web.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/dotnet-cloud-run-hello-world.csproj"
+                "${workspaceFolder}/StreamHub.Web.csproj"
             ],
             "problemMatcher": "$tsc"
         }

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>dotnet_cloud_run_hello_world</RootNamespace>
+    <RootNamespace>StreamHub.Web</RootNamespace>
   </PropertyGroup>
 
 

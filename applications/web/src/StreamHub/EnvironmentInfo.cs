@@ -1,5 +1,5 @@
 
-namespace dotnet_cloud_run_hello_world
+namespace StreamHub.Web
 {
     public interface IEnvironmentInfo
     {

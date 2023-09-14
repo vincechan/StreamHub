@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace dotnet_cloud_run_hello_world
+namespace StreamHub.Web
 {
     public class Startup
     {

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace dotnet_cloud_run_hello_world
+namespace StreamHub.Web
 {
     public class Program
     {

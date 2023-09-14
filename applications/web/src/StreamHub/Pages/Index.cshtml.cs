@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace dotnet_cloud_run_hello_world.Pages
+namespace StreamHub.Web.Pages
 {
     public class IndexModel : PageModel
     {
