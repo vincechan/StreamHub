@@ -6,7 +6,7 @@
             "request": "launch",
             "build": {
                 "docker": {
-                    "path": "applications/web/src/StreamHub/Dockerfile"
+                    "path": "applications/web/src/StreamHub.Web/Dockerfile"
                 }
             },
             "image": "stream-hub-web",
