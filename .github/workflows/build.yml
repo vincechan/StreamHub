@@ -4,6 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Build Docker image
-      run: docker build ./applications/web/src/StreamHub.Web --file Dockerfile --tag stream-hub-web:$(date +%s)
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Build Docker image
+        run: cd applications/web/src/StreamHub.Web && docker build . --tag stream-hub-web:$(date +%s)
