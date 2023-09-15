@@ -26,6 +26,6 @@ public class BasicTests
 
         // Assert
         response.EnsureSuccessStatusCode(); // Status Code 200-299
-        Assert.Equal("text/html; charset=u", response.Content?.Headers?.ContentType?.ToString());
+        Assert.Equal("text/html; charset=utf-8", response.Content?.Headers?.ContentType?.ToString());
     }
 }
