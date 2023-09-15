@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamHub.Web", "StreamHub.Web\StreamHub.Web.csproj", "{23E2625A-69B0-434A-8520-8D766D5A5825}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Web.UnitTests", "StreamHub.Web.UnitTests\StreamHub.Web.UnitTests.csproj", "{7BD9399E-84B2-4A56-A572-32A964804449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamHub.Web.IntegrationTests", "StreamHub.Web.IntegrationTests\StreamHub.Web.IntegrationTests.csproj", "{2AEBD679-2D22-49E4-91EF-B9AEA9D677F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{23E2625A-69B0-434A-8520-8D766D5A5825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E2625A-69B0-434A-8520-8D766D5A5825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E2625A-69B0-434A-8520-8D766D5A5825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD9399E-84B2-4A56-A572-32A964804449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD9399E-84B2-4A56-A572-32A964804449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD9399E-84B2-4A56-A572-32A964804449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD9399E-84B2-4A56-A572-32A964804449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEBD679-2D22-49E4-91EF-B9AEA9D677F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEBD679-2D22-49E4-91EF-B9AEA9D677F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEBD679-2D22-49E4-91EF-B9AEA9D677F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEBD679-2D22-49E4-91EF-B9AEA9D677F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
