@@ -23,4 +23,6 @@ jobs:
         working-directory: ./applications/web/src
         run: dotnet restore StreamHub.sln && dotnet build --no-restore StreamHub.sln && dotnet test --no-build --verbosity normal StreamHub.sln
       - name: Build Docker image
-        run: cd ~/applications/web/src/StreamHub.Web && docker build . --tag stream-hub-web:$(date +%s)
+        working-directory: ./applications/web/src/StreamHub.Web
+        run: docker build . --tag stream-hub-web:$(date +%s)
+
