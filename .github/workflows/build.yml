@@ -19,12 +19,8 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 7.0.x
-      - run: cd applications/web/src
-      - name: Restore dependencies
-        run: dotnet restore StreamHub.sln
-      - name: Build
-        run: dotnet build --no-restore StreamHub.sln
-      - name: Test
-        run: dotnet test --no-build --verbosity normal StreamHub.sln
+      - name: Setup and run tests
+        working-directory: ./applications/web/src
+        run: dotnet restore StreamHub.sln && dotnet build --no-restore StreamHub.sln && dotnet test --no-build --verbosity normal StreamHub.sln
       - name: Build Docker image
         run: cd ~/applications/web/src/StreamHub.Web && docker build . --tag stream-hub-web:$(date +%s)
