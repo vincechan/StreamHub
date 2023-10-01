@@ -8,11 +8,11 @@ Fetch data from TVDB api and store in postgres database for further analysis.
 
 ## Running
 - Update env var `STREAMHUB__TMDB__APIKEY` to your TVDB access token
-- From `StreamHub/applications/data-collector/src`, run `docker-compose up`
-- From `StreamHub/applications/data-collector/src/DataCollector.Api`, run `dotnet run`
+- From `data-collector/src`, run `docker-compose up` to run db in container
+- From `data-collector/src/DataCollector.Api`, run `dotnet run`
 - Browse to `https://localhost:8080/swagger/index.html`, try `api/TVShow/CollectPopularTVShows` route
 
-## Migration
+## Migrations
 * Manage migration using `dotnet ef`. To install the tool globally, run `dotnet tool 
 * Create Migration - `dotnet ef migrations add name_of_migration`
 * Execute Migration - `dotnet ef database update`
