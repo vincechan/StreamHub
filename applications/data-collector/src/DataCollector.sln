@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCollector.Core", "DataCollector.Core\DataCollector.Core.csproj", "{90016271-E8C2-4CCB-9275-44FEFDEFAB56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCollector.Console", "DataCollector.Console\DataCollector.Console.csproj", "{8B2D0D02-A8F4-48B4-AAD8-E637FE95185F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCollector.Api", "DataCollector.Api\DataCollector.Api.csproj", "{51A9E791-3A5C-4198-9FA2-37A3CF971404}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{90016271-E8C2-4CCB-9275-44FEFDEFAB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90016271-E8C2-4CCB-9275-44FEFDEFAB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90016271-E8C2-4CCB-9275-44FEFDEFAB56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B2D0D02-A8F4-48B4-AAD8-E637FE95185F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B2D0D02-A8F4-48B4-AAD8-E637FE95185F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B2D0D02-A8F4-48B4-AAD8-E637FE95185F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B2D0D02-A8F4-48B4-AAD8-E637FE95185F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A9E791-3A5C-4198-9FA2-37A3CF971404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A9E791-3A5C-4198-9FA2-37A3CF971404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A9E791-3A5C-4198-9FA2-37A3CF971404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A9E791-3A5C-4198-9FA2-37A3CF971404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
